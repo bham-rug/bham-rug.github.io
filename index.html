@@ -8,7 +8,7 @@
 </head>
 <body class="bg-light">
     <div class="container d-flex justify-content-center align-items-center vh-100">
-        <div class="text-center bg-white p-5 rounded shadow">
+        <div class="text-center">
             <!-- Logo Placeholder -->
             <div class="mb-4">
                 <img src="placeholder-logo.png" alt="Birmingham R Users Group Logo" class="img-fluid" style="max-height: 100px;">
@@ -18,19 +18,9 @@
             <p class="mb-4">Are you interested in learning about the R programming language, growing your expertise, or connecting with other R users? Sign up below, and you will be emailed with a link to the Meetup group!</p>
 
             <!-- Subscription Form -->
-            <form
-              action="https://formspree.io/f/manneobq"
-              method="POST"
-            >
-              <label class="form-label d-block mb-3">
-                Your email:
-                <input type="email" name="email" class="form-control" required>
-              </label>
-              <label class="form-label d-block mb-3">
-                Your message:
-                <textarea name="message" class="form-control" rows="3"></textarea>
-              </label>
-              <button type="submit" class="btn btn-primary w-100">Send</button>
+            <form class="d-flex" action="https://formspree.io/f/manneobq" method="POST">
+                <input type="email" name="email" class="form-control me-2" placeholder="Email address" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
             </form>
         </div>
     </div>
