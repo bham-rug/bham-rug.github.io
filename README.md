@@ -11,4 +11,4 @@ The site is hosted at: [bham-rug.github.io](https://bham-rug.github.io)
 Feel free to fork this repository and submit a pull request for enhancements or issues.
 
 ## License
-This project is open source and available under the [MIT License](LICENSE.md).
+This project is open source and available under the [MIT License](LICENSE).
